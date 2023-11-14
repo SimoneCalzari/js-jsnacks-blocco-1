@@ -13,9 +13,17 @@ let somma = 0;
 let i = 0;
 
 //ciclo while
-while (somma < 50) {
+// while (somma < 50) {
+//   array[i] = Number(prompt('inserisci un numero'));
+//   somma += array[i];
+//   console.log(somma);
+//   i++;
+// }
+
+//ciclo do while
+do {
   array[i] = Number(prompt('inserisci un numero'));
   somma += array[i];
   console.log(somma);
   i++;
-}
+} while (somma < 50)
